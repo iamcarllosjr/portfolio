@@ -22,20 +22,20 @@ const Archive = () => {
         listItem={["HTML", "CSS", "JAVASCRIPT"]}
         link="https://iamcarllosjr.github.io/projeto-slider-pokemon" />
         <ArchiveCard 
-        title="Pokemon Slider"
+        title="Landing Page"
         desc="Lorem ipsum dolor sit, Lorem ipsum dolor sit, amet consectetur adipisicing. amet consectetur adipisicing."
         listItem={["HTML", "CSS", "JAVASCRIPT"]}
-        link="https://iamcarllosjr.github.io/projeto-slider-pokemon" />
+        link="https://iamcarllosjr.github.io/landing-page/" />
         <ArchiveCard 
-        title="Pokemon Slider"
+        title="NFT Card"
         desc="Lorem ipsum dolor sit, Lorem ipsum dolor sit, amet consectetur adipisicing. amet consectetur adipisicing."
-        listItem={["HTML", "CSS", "JAVASCRIPT"]}
-        link="https://iamcarllosjr.github.io/projeto-slider-pokemon" />
+        listItem={["HTML", "CSS"]}
+        link="https://iamcarllosjr.github.io/nft-preview-card-frontend-mentor/" />
         <ArchiveCard 
-        title="Pokemon Slider"
+        title="Lista de Usuários Via API"
         desc="Lorem ipsum dolor sit, Lorem ipsum dolor sit, amet consectetur adipisicing. amet consectetur adipisicing."
-        listItem={["HTML", "CSS", "JAVASCRIPT"]}
-        link="https://iamcarllosjr.github.io/projeto-slider-pokemon" />
+        listItem={["TYPESCRIPT", "TAILWIND", "FETCH API"]}
+        link="https://lista-de-usuarios-via-api.vercel.app/" />
         <ArchiveCard 
         title="Pokemon Slider"
         desc="Lorem ipsum dolor sit, Lorem ipsum dolor sit, amet consectetur adipisicing. amet consectetur adipisicing."

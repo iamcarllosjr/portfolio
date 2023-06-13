@@ -1,5 +1,6 @@
 import {motion} from "framer-motion";
 
+
 const Banner = () => {
   return (
     <section id="home" className='max-w-contentContainer mx-auto py-10 px-20 mdl:py-24 flex flex-col 

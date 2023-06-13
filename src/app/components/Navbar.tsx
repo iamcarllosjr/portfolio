@@ -43,7 +43,8 @@ const Navbar = () => {
         initial={{opacity:0}} 
         animate={{opacity:1}} 
         transition={{duration:0.5}}>
-        <Image className="w-14" src={logo} alt="logo"/>
+        {/* <Image className="w-14" src={logo} alt="logo"/> */}
+        <h1 className="text-4xl tracking-widest font-bold">CJ</h1>
         </motion.div>
         {/* IMAGE */}
 
@@ -190,7 +191,7 @@ const Navbar = () => {
                 </Link>
             </ul>
 
-                 <a href="/inserir-url-curriculo.pdf" target="_blank">
+                 <a href="https://drive.google.com/file/d/14LpmMFCf13aiJNGq3W-j2caRJMrBVWES/view?usp=sharing" target="_blank">
                  <motion.button
                  initial={{y:-10, opacity:0}} 
                  animate={{y:0, opacity:1}} 

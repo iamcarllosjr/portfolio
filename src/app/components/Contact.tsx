@@ -12,7 +12,7 @@ const Contact = () => {
             is always open. Wheter you have a question or just want to say hi, Ill
             try my best to get back to you ! 
         </p>
-        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" target='_blank'>
+        <a href="https://wa.me/5516993547171?text=Ol%C3%A1%2C+vi+o+seu+portfolio+e+gostaria+de+entrar+em+contato+com+voc%C3%AA+%21" target='_blank'>
             <button className='w-40 h-14 border border-textGreen mt-6 font-semibold text-sm text-textGreen tracking-wider rounded-md
              hover:bg-hoverColor duration-300'>Say Hello</button>
         </a>

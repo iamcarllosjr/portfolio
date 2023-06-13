@@ -1,7 +1,7 @@
 import SectionTitle from '@/app/components/SectionTitle';
 import {AiFillThunderbolt} from 'react-icons/ai';
 import Image from 'next/image';
-import profile from '../../../public/images/user2.jpg';
+import profile from '../../../public/images/wtap.jpeg';
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
               Hello ! My name is Carlos, i like to create things for the internet, my interest in being a Web Developer came through online games, and NFTs.
               I started studying in January 2022. I have the goal of entering the world of web development, either as an intern or Junior Developer !
             </p>
-            <p>Here are a few tecnologies i have been working with recently</p>
+            <p>Here are a few tecnologies and frameworks i have been working with recently</p>
             <ul className='m-w-[450px] text-sm font-semibold grid grid-cols-2 gap-2 mt-6'>
               <li className='flex items-center gap-2'>
                 <span className='text-textGreen'><AiFillThunderbolt/></span>HTML 5
