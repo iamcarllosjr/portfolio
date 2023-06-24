@@ -1,4 +1,5 @@
 import {motion} from "framer-motion";
+import Link from "next/link";
 
 
 const Banner = () => {
@@ -9,16 +10,16 @@ const Banner = () => {
         initial={{y:10, opacity:0 }}
         animate={{y:0, opacity:1}}
         transition={{duration:0.5, delay:0.6}}
-        className='text-lg font-normal tracking-wide text-textGreen items-start'>Hi, my name is
+        className='text-lg font-normal tracking-wide text-textGreen text-center'>Olá, me chamo
         </motion.h3>
 
         <motion.h1
         initial={{y:10, opacity:0 }}
         animate={{y:0, opacity:1}}
         transition={{duration:0.5, delay:0.7}}
-        className="text-4xl lgl:text-6xl font-semibold flex flex-col"
+        className="text-4xl lgl:text-6xl font-semibold flex flex-col text-center"
         >Carlos Junior. 
-        <span className="text-textDark mt-2 lgl:mt-4">I build things for the web.</span>
+        <span className="text-textDark mt-2 lgl:mt-4">Eu construo coisas para a web.</span>
         </motion.h1>
 
         <motion.p
@@ -26,14 +27,11 @@ const Banner = () => {
         animate={{y:0, opacity:1}}
         transition={{duration:0.5, delay:0.8}}
         className="text-base md:max-w-[650px] text-textDark font-medium flex flex-col gap-2"
-        >I am front end developer. I still dont have professional experience, just my personal projects. Im looking for my first job as a developer.
-        <a href="" target="_blank">
-        <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">Learn More
-        <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
-        </span>
-        </a>
+        >Iniciei meus estudos para ser um desenvolvedor front-end. Ainda não tenho experiência profissional, apenas meus projetos pessoais. Estou procurando meu primeiro emprego como desenvolvedor.
+        
         </motion.p>
-
+        
+        <Link href="https://github.com/iamcarllosjr" target="_blank">
         <motion.button
         initial={{y:10, opacity:0 }}
         animate={{y:0, opacity:1}}
@@ -41,6 +39,7 @@ const Banner = () => {
         className="w-52 h-14 text-sm font-medium border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300">
         Check out my project !
         </motion.button>
+        </Link>
     </section>
   )
 }
