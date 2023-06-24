@@ -1,4 +1,4 @@
-import logo from "./images/ethereum.png";
+import logo from "./images/logo.png";
 import profile from "./images/user2.jpg";
 import project from "./images/cryptodonation.png"
 

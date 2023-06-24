@@ -12,13 +12,13 @@ const Archive = () => {
   return (
     <div className="max-w-contentContainer mx-auto px-4 py-4">
       <div className="w-full flex flex-col items-center">
-        <h3 className="text-3xl font-semibold">Other Noteworthy Projects</h3>
-        <p className="text-sm text-textGreen">View the Archive</p>
+        <h3 className="text-3xl font-semibold">Outros Projetos</h3>
+        <p className="text-sm text-textGreen">Veja os arquivos</p>
       </div>
       <div className="grid grid-cols-1 md:grid-col-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard 
         title="Pokemon Slider"
-        desc="Lorem ipsum dolor sit, Lorem ipsum dolor sit, amet consectetur adipisicing. amet consectetur adipisicing."
+        desc="Um slider feito para mostrar alguns cards do famoso desenho Pokemon"
         listItem={["HTML", "CSS", "JAVASCRIPT"]}
         link="https://iamcarllosjr.github.io/projeto-slider-pokemon" />
         <ArchiveCard 
@@ -28,24 +28,24 @@ const Archive = () => {
         link="https://iamcarllosjr.github.io/landing-page/" />
         <ArchiveCard 
         title="NFT Card"
-        desc="Lorem ipsum dolor sit, Lorem ipsum dolor sit, amet consectetur adipisicing. amet consectetur adipisicing."
+        desc="Um card estildo NFT feito em através de um desafio do Front end Mentor."
         listItem={["HTML", "CSS"]}
         link="https://iamcarllosjr.github.io/nft-preview-card-frontend-mentor/" />
         <ArchiveCard 
         title="Lista de Usuários Via API"
-        desc="Lorem ipsum dolor sit, Lorem ipsum dolor sit, amet consectetur adipisicing. amet consectetur adipisicing."
+        desc="Projeto criado para aprimorar conhecimento em API, buscando dados e os tratando no front web"
         listItem={["TYPESCRIPT", "TAILWIND", "FETCH API"]}
         link="https://lista-de-usuarios-via-api.vercel.app/" />
         <ArchiveCard 
-        title="Pokemon Slider"
-        desc="Lorem ipsum dolor sit, Lorem ipsum dolor sit, amet consectetur adipisicing. amet consectetur adipisicing."
-        listItem={["HTML", "CSS", "JAVASCRIPT"]}
-        link="https://iamcarllosjr.github.io/projeto-slider-pokemon" />
+        title="Javascript Age Calculator"
+        desc="App para calcular data de nascimento"
+        listItem={["NEXTJS", "TAILWIND", "TYPESCRIPT"]}
+        link="https://javascript-age-calculator-eight.vercel.app/" />
         <ArchiveCard 
-        title="Pokemon Slider"
-        desc="Lorem ipsum dolor sit, Lorem ipsum dolor sit, amet consectetur adipisicing. amet consectetur adipisicing."
-        listItem={["HTML", "CSS", "JAVASCRIPT"]}
-        link="https://iamcarllosjr.github.io/projeto-slider-pokemon" />
+        title="Dapp para Envio de Crypto Moedas"
+        desc="Dapp cuja finalidade é receber cryptomoedas, usando um smart-contract escrito na linguagem Solidity"
+        listItem={["NEXTJS", "TAILWIND", "TYPESCRIPT", "SOLIDITY"]}
+        link="https://github.com/iamcarllosjr/give-me-money/tree/main" />
 
         {
           showMore && (

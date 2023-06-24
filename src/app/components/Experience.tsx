@@ -47,7 +47,7 @@ const Experience = () => {
 
   return (
     <section id="experience" className="max-w-containerxs mx-auto px-20 py-10 lgl:py-24">
-     <SectionTitle title='Where i have Worked' />
+     <SectionTitle title='Experiência' />
      <div className='w-full mt-10 flex flex-col md:flex-row gap-16'>
         <ul className='md:w-32 flex flex-col'>
             <li onClick={handleReactbd} className={`${workReactbd ? 

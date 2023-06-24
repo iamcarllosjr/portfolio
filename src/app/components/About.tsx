@@ -6,14 +6,14 @@ import profile from '../../../public/images/wtap.jpeg';
 const About = () => {
   return (
     <section id="about" className='max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8'>
-        <SectionTitle title='About Me'/>
+        <SectionTitle title='Sobre'/>
         <div className='flex flex-col lgl:flex-row gap-16'>
           <div className='w-full lgl:w=2/3 text-base text-textDark font-medium flex flex-col gap-4'>
             <p>
-              Hello ! My name is Carlos, i like to create things for the internet, my interest in being a Web Developer came through online games, and NFTs.
-              I started studying in January 2022. I have the goal of entering the world of web development, either as an intern or Junior Developer !
+              Olá ! Meu nome é Carlos, gosto de criar coisas para internet, meu interesse em ser Web Developer veio através de jogos online, e NFTs.
+              Comecei a estudar em janeiro de 2022. Tenho o objetivo de entrar no mundo do desenvolvimento web, e ser um grande desenvolvedor !
             </p>
-            <p>Here are a few tecnologies and frameworks i have been working with recently</p>
+            <p>Aqui estão algumas tecnologias e estruturas com as quais tenho trabalhado recentemente</p>
             <ul className='m-w-[450px] text-sm font-semibold grid grid-cols-2 gap-2 mt-6'>
               <li className='flex items-center gap-2'>
                 <span className='text-textGreen'><AiFillThunderbolt/></span>HTML 5

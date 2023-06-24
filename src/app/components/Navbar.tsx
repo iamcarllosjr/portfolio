@@ -43,8 +43,7 @@ const Navbar = () => {
         initial={{opacity:0}} 
         animate={{opacity:1}} 
         transition={{duration:0.5}}>
-        {/* <Image className="w-14" src={logo} alt="logo"/> */}
-        <h1 className="text-4xl tracking-widest font-bold">CJ</h1>
+        <Image className="w-12 text-textGreen" src={logo} alt="logo"/>
         </motion.div>
         {/* IMAGE */}
 
@@ -68,7 +67,7 @@ const Navbar = () => {
                 initial={{y:-10, opacity:0}} 
                 animate={{y:0, opacity:1}} 
                 transition={{duration:0.1, delay:0.1}}
-                >About</motion.li>
+                >Sobre</motion.li>
                 </Link>
 
                 <Link href="#experience"
@@ -78,7 +77,7 @@ const Navbar = () => {
                 initial={{y:-10, opacity:0}} 
                 animate={{y:0, opacity:1}} 
                 transition={{duration:0.1, delay:0.2}}
-                >Experience</motion.li>
+                >Experiência</motion.li>
                 </Link>
 
                 <Link href="#project"
@@ -88,7 +87,7 @@ const Navbar = () => {
                 initial={{y:-10, opacity:0}} 
                 animate={{y:0, opacity:1}} 
                 transition={{duration:0.1, delay:0.3}}
-                >Project</motion.li>
+                >Projetos</motion.li>
                 </Link>
 
                 <Link href="#contact"
@@ -98,7 +97,7 @@ const Navbar = () => {
                 initial={{y:-10, opacity:0}} 
                 animate={{y:0, opacity:1}} 
                 transition={{duration:0.1, delay:0.4}}
-                >Contact</motion.li>
+                >Contato</motion.li>
                 </Link>
             </ul>
 
@@ -108,7 +107,7 @@ const Navbar = () => {
             animate={{y:0, opacity:1}} 
             transition={{delay: 0.5}}
             className="px-4 py-1 rounded-md text-textGreen text-[15px] border border-textGreen hover:bg-hoverColor duration-300"
-            >Resume</motion.button>
+            >Curriculo</motion.button>
             </a>
 
         </div>
