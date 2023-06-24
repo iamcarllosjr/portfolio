@@ -3,13 +3,13 @@ import {motion} from "framer-motion";
 
 const Banner = () => {
   return (
-    <section id="home" className='max-w-contentContainer mx-auto py-10 px-20 mdl:py-24 flex flex-col 
+    <section id="home" className='max-w-contentContainer  mx-auto py-24 px-4 mdl:px-10  flex flex-col  mdl:items-center 
     gap-4 lgl:gap-8'>
         <motion.h3 
         initial={{y:10, opacity:0 }}
         animate={{y:0, opacity:1}}
         transition={{duration:0.5, delay:0.6}}
-        className='text-lg font-normal tracking-wide text-textGreen'>Hi, my name is
+        className='text-lg font-normal tracking-wide text-textGreen items-start'>Hi, my name is
         </motion.h3>
 
         <motion.h1

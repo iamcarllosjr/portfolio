@@ -11,7 +11,7 @@ const Archive = () => {
 
   return (
     <div className="max-w-contentContainer mx-auto px-4 py-4">
-      <div className="w-full flex flex-col items-center">
+      <div className="w-full flex flex-col items-center text-center">
         <h3 className="text-3xl font-semibold">Outros Projetos</h3>
         <p className="text-sm text-textGreen">Veja os arquivos</p>
       </div>

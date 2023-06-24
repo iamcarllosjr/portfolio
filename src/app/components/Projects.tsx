@@ -8,7 +8,7 @@ import { RxOpenInNewWindow } from "react-icons/rx"
 const Projects = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
-       <SectionTitle title="Algumas coisas que construí" />
+       <SectionTitle title="Algumas coisas que construí"/>
        {/* Project One */}
        <div className="w-full flex flex-col items-center item-center justify-between gap-28 mt-10">
        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
@@ -21,7 +21,7 @@ const Projects = () => {
                         text-right xl:-ml-16 z-10">
           <p className="font-medium text-textGreen text-sm tracking-wide">Projeto em Destaque</p>
           <h3 className="text-2xl font-bold">Crypto Donation</h3>
-          <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+          <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md text-center">
           A project made aimed at donations of cryptocurrencies to charities, this project was made only the front-end, the smart-contract was not made.</p>
             <ul className="text-xs md:text-sm font-medium tracking-wide flex gap-2
               md:gap-5 justify-between text-textDark">
@@ -29,7 +29,6 @@ const Projects = () => {
               <li>Typescript</li>
               <li>TailwindCSS</li>
               <li>Web3</li>
-              <li>Vercel Deployment</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a href="https://github.com/iamcarllosjr/Interface-para-um-Dapp--Crypto-Donation" target="_blank">
@@ -53,7 +52,7 @@ const Projects = () => {
                         text-right xl:-mr-16 z-10">
           <p className="font-medium text-textGreen text-sm tracking-wide">Projeto em Destaque</p>
           <h3 className="text-2xl font-bold">Crypto Donation</h3>
-          <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+          <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md text-center">
           A project made aimed at donations of cryptocurrencies to charities, this project was made only the front-end, the smart-contract was not made.</p>
             <ul className="text-xs md:text-sm font-medium tracking-wide flex gap-2
               md:gap-5 justify-between text-textDark">
@@ -61,7 +60,6 @@ const Projects = () => {
               <li>Typescript</li>
               <li>TailwindCSS</li>
               <li>Web3</li>
-              <li>Vercel Deployment</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a href="https://github.com/iamcarllosjr/Interface-para-um-Dapp--Crypto-Donation" target="_blank">
@@ -85,7 +83,7 @@ const Projects = () => {
                         text-right xl:-ml-16 z-10">
           <p className="font-medium text-textGreen text-sm tracking-wide">Projeto em Destaque</p>
           <h3 className="text-2xl font-bold">Crypto Donation</h3>
-          <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+          <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md text-center">
           A project made aimed at donations of cryptocurrencies to charities, this project was made only the front-end, the smart-contract was not made.</p>
             <ul className="text-xs md:text-sm font-medium tracking-wide flex gap-2
               md:gap-5 justify-between text-textDark">
@@ -93,7 +91,6 @@ const Projects = () => {
               <li>Typescript</li>
               <li>TailwindCSS</li>
               <li>Web3</li>
-              <li>Vercel Deployment</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a href="https://github.com/iamcarllosjr/Interface-para-um-Dapp--Crypto-Donation" target="_blank">

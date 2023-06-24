@@ -11,8 +11,8 @@ interface Props {
 
 const ArchiveCard = ({title, desc, listItem, link}:Props) => {
   return (
-    <Link href={link} target="_blank">
-        <div className="w-full h-80 rounded-lg bg-[#112240] p-5 flex flex-col justify-center
+    <Link href={link} target="_blank" className="">
+        <div className="w-full h-90 mdl:h-60 rounded-lg bg-[#112240] p-5 flex flex-col justify-center
     gap-6 hover:-translate-y-2 transition-transform duration-300 group">
         <div className="flex justify-between items-center">
            <a href="https://github.com/iamcarllosjr/projeto-slider-pokemon" target="_blank">
@@ -26,8 +26,8 @@ const ArchiveCard = ({title, desc, listItem, link}:Props) => {
             <h2 className="text-xl font-semibold tracking-wide group-hover:text-textGreen">{title}</h2>
             <p className="text-sm mt-3">{desc}</p>
         </div>
-        <ul className="text-sx mdl:text-sm h-full text-textDark flex justify-center text-baseline  gap-6
-         flex-wrap">
+        <ul className="mdl:text-sm h-full text-textDark flex justify-center gap-2
+         flex-wrap xl:items-end">
             {
               listItem.map((item, i) => (
                 <li key={i}>{item}</li>

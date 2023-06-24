@@ -6,7 +6,7 @@ const Contact = () => {
     className="max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4
     items-center justify-center">
         <p className="font-semibold text-textGreen flex items-center tracking-wide">Whats Next ?</p>
-        <h2 className='font-semibold text-5xl'>Get in Touch</h2>
+        <h2 className='font-semibold text-5xl text-center'>Get in Touch</h2>
         <p className="max-w-[600px] text-center text-textDark">
             Although im not currently for any new opportunities, my inbox
             is always open. Wheter you have a question or just want to say hi, Ill

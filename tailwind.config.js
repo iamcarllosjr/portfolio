@@ -10,7 +10,7 @@ module.exports = {
       container: "1440px",
       contenctContainer: "1140px",
       containerSmall: "1024px",
-      contaierxs: "768px",
+      containerxs: "768px",
     },
     fontFamily: {
       sofia: [
