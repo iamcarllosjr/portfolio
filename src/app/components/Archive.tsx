@@ -56,10 +56,10 @@ const Archive = () => {
             transition={{delay: 0.1}}>
 
             <ArchiveCard 
-              title="Pokemon Slider"
+              title="Product Card"
               desc="Lorem ipsum dolor sit, Lorem ipsum dolor sit, amet consectetur adipisicing. amet consectetur adipisicing."
-              listItem={["HTML", "CSS", "JAVASCRIPT"]}
-              link="https://iamcarllosjr.github.io/projeto-slider-pokemon" />
+              listItem={["HTML", "TAILWIND"]}
+              link="https://github.com/iamcarllosjr/product-card" />
             </motion.div>
 
             <motion.div
@@ -90,8 +90,8 @@ const Archive = () => {
       </div>
       <div className="mt-12 flex items-center justify-center">
         {
-          showMore ? <button onClick={()=> setShowMore(false)} className="w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300">Show Less
-          </button> : <button onClick={()=> setShowMore(true)} className="w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300">Show More
+          showMore ? <button onClick={()=> setShowMore(false)} className="w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300">Mostrar Menos
+          </button> : <button onClick={()=> setShowMore(true)} className="w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300">Mostrar Mais
         </button>
         }
       </div>
