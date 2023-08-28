@@ -67,10 +67,10 @@ const Archive = () => {
             whileInView={{opacity: 1}}
             transition={{delay: 0.2}}>
             <ArchiveCard 
-              title="Pokemon Slider"
-              desc="Lorem ipsum dolor sit, Lorem ipsum dolor sit, amet consectetur adipisicing. amet consectetur adipisicing."
+              title="Spotify Clone Interface"
+              desc="Interface do Spotify recriada usando TailwindCSS"
               listItem={["HTML", "CSS", "JAVASCRIPT"]}
-              link="https://iamcarllosjr.github.io/projeto-slider-pokemon" />
+              link="https://tailwind-clone-spotify.vercel.app/" />
             </motion.div>
 
             <motion.div
