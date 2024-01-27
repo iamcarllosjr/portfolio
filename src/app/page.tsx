@@ -19,7 +19,7 @@ export default function Home() {
         <div className='h-[88vh] mx-auto px-20'>
           <Banner />
           <About />
-          <Experience />
+          {/* <Experience /> */}
           <Projects />
           <Archive />
           <Contact />

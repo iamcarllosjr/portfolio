@@ -27,7 +27,7 @@ const Banner = () => {
         animate={{y:0, opacity:1}}
         transition={{duration:0.5, delay:0.8}}
         className="text-base md:max-w-[650px] text-textDark font-medium flex flex-col gap-2"
-        >Iniciei meus estudos para ser um desenvolvedor front-end. Ainda não tenho experiência profissional, apenas meus projetos pessoais. Estou procurando meu primeiro emprego como desenvolvedor.
+        >Eu sou um Desenvolvedor Frontend Junior, com conhecimento em HTML, TailwindCSS, JavaScript e NextJs, estou animado para colaborar em projetos que aprimorem a experiência do usuário e contribuam para o sucesso da equipe de desenvolvimento. Estou ansioso para aprender e crescer enquanto trabalho em um ambiente estimulante e dinâmico, onde posso desenvolver minhas habilidades e contribuir para a criação de soluções visuais eficazes.
         
         </motion.p>
         
